@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     container: {
       marginBottom: 20
   },
-  lable: {
+  label: {
     color: 'rgb(1, 147, 134)',
     fontSize: 16,
     fontWeight: 'bold',

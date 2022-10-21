@@ -1,4 +1,3 @@
-import React from 'react';
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -25,13 +24,11 @@ const styles = StyleSheet.create({
         paddingRight: 16,
 
     },
-
     inputWrap: {
         
     },
-
     buttonWrap: {
-        marginTop: 60,
+        marginTop: 30,
     }
 
 });
