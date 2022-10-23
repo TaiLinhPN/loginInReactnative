@@ -11,19 +11,28 @@
 import React from 'react';
 import {
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   View,
 
 } from 'react-native';
+import Home from './src/components/home';
 import Login from './src/components/Login';
 
 
 const App = () => {
 return (
-    <SafeAreaView >
-     <View><Login/></View>
-    </SafeAreaView>
-  );
+  <SafeAreaView>
+   
+      {/* <View>
+      <Login />
+    </View> */}
+      <View>
+        <Home />
+      </View>
+    
+  </SafeAreaView>
+);
 }
   
   
